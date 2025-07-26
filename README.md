@@ -1,6 +1,6 @@
 ## vawsaper
 
-(react-web-audio-api-sound-effect-visualization-patterns)
+(react-web-audio-api-sound-effect-visualization-pattern-example)
 
 ---
 
