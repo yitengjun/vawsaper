@@ -41,7 +41,7 @@ export const Volume = ({ audioContext, audioGainNode }: Props) => {
 				<div className={styles.progressBackground}>
 					<div
 						className={styles.progressBar}
-						style={{ "--progress": masterVolume * 2 } as CSSProperties}
+						style={{ "--progress": masterVolume } as CSSProperties}
 					></div>
 				</div>
 			</div>
