@@ -1,0 +1,25 @@
+button {
+	font-weight: normal;
+}
+
+:where(a, button):hover {
+	text-decoration: underline;
+}
+
+:root {
+	--design-width: 1920;
+	--px-to-vw: calc(100vw / var(--design-width));
+
+	/* design tokens */
+	--leading-trim: calc((1cap - 1lh) / 2);
+	--color-border: rgb(0 0 0 / 0.1);
+}
+
+html {
+	color: #000;
+	background-color: #fff;
+}
+
+body {
+	font-size: 14px;
+}

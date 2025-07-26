@@ -1,0 +1,14 @@
+.section {
+	container-type: inline-size;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	width: 40cqw;
+}
+
+.author {
+	opacity: 0.5;
+}

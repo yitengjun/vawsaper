@@ -1,0 +1,5 @@
+.canvas {
+	display: block;
+	width: calc(200 * var(--px-to-vw));
+	height: calc(200 * var(--px-to-vw));
+}

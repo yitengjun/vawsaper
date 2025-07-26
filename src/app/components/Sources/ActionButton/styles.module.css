@@ -1,0 +1,11 @@
+.button {
+	display: flex;
+	gap: 2px;
+	align-items: center;
+	font-size: 12px;
+}
+
+.button:disabled {
+	pointer-events: none;
+	opacity: 0;
+}

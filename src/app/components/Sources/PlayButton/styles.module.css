@@ -1,0 +1,16 @@
+.button {
+	display: flex;
+	gap: 4px;
+	align-items: center;
+	font-weight: 500;
+}
+
+.button:disabled {
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+.icon {
+	width: 24px;
+	height: 24px;
+}

@@ -1,0 +1,9 @@
+.main {
+	display: grid;
+	grid-template-columns:
+		calc(539 * var(--px-to-vw))
+		calc(751 * var(--px-to-vw))
+		calc(550 * var(--px-to-vw));
+	height: 100vh;
+	padding: calc(80 * var(--px-to-vw)) calc(40 * var(--px-to-vw));
+}

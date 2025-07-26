@@ -1,0 +1,18 @@
+.section {
+	position: relative;
+	display: grid;
+	grid-template-rows: auto 1fr;
+	padding: calc(16 * var(--px-to-vw));
+	border: 1px solid var(--color-border);
+	isolation: isolate;
+}
+
+.title {
+	font-weight: 500;
+}
+
+.content {
+	display: grid;
+	grid-template-rows: 1fr auto;
+	padding-top: calc(160 * var(--px-to-vw));
+}

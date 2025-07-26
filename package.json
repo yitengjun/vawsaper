@@ -1,0 +1,28 @@
+{
+	"name": "my-react-sound",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbopack",
+		"build": "next build",
+		"start": "next start",
+		"lint": "npx @biomejs/biome check src --write"
+	},
+	"dependencies": {
+		"@react-spring/rafz": "^10.0.1",
+		"gsap": "^3.13.0",
+		"next": "15.3.4",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.0.6",
+		"@eslint/eslintrc": "^3",
+		"@types/node": "^20",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"eslint": "^9",
+		"eslint-config-next": "15.3.4",
+		"typescript": "^5"
+	}
+}
