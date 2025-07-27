@@ -60,7 +60,7 @@ export const useFrequency = ({
 		}
 
 		if (!canvasContextRef.current) return;
-		canvasContextRef.current.fillStyle = "rgb(0, 0, 0)";
+		canvasContextRef.current.fillStyle = "rgb(255, 255, 255)";
 		canvasContextRef.current.fillRect(0, 0, canvasWidth, canvasHeight);
 
 		const bars = calculateFrequencyBars(dataArrayRef.current, canvasWidth);
@@ -93,7 +93,7 @@ const calculateFrequencyBars = (
 	for (let i = 0; i < bufferLength; i++) {
 		const barHeight = dataArray[i] * 0.8;
 
-		const color = `rgb(255,255,255)`;
+		const color = `rgb(0,0,0)`;
 
 		bars.push({
 			height: barHeight,

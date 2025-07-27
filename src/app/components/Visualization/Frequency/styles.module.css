@@ -2,4 +2,5 @@
 	display: block;
 	width: calc(200 * var(--px-to-vw));
 	height: calc(200 * var(--px-to-vw));
+	border: 1px solid var(--color-border);
 }
